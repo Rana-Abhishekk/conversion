@@ -1,5 +1,9 @@
 package com.conversion.Repositories;
 
-public interface ContactMediumRepo {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.conversion.conversionDto.ContactMedium;
+
+public interface ContactMediumRepo extends JpaRepository<ContactMedium, String>{
 
 }
