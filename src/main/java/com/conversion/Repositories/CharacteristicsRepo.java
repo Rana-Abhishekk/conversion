@@ -7,3 +7,4 @@ import com.conversion.conversionDto.Characteristics;
 public interface CharacteristicsRepo extends JpaRepository<Characteristics, String>{
 
 }
+  

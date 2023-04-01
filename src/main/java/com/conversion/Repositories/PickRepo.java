@@ -6,4 +6,4 @@ import com.conversion.conversionDto.PickUp;
 
 public interface PickRepo extends JpaRepository<PickUp, String>{
 
-}
+}  
